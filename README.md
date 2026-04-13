@@ -61,11 +61,22 @@ docker-compose up --build -d
 http://IP_DE_TU_EC2:5000
 ________________________________________
 Reflexión Final
-Un párrafo libre. ¿Qué fue lo más difícil? ¿Qué entendieron que antes no entendían? ¿En qué situación real usarían microservicios?
-Uno de lo mas dificil fue trabajar con las versiones y distitos repositorios, ya que yo al inicio cargaba las llaves a los repositorios esto miismo genero un conflicto, mi solucion fue cargar esa llave pero a mi perfil,
-con eso logre que se solucionara el problema de hacer pull o push que reconocia a otros repositorios. Tambien lo mas dificil a mi parecer fue usar docker, ya que no conocia todos sus comandos, aqui si pedi ayuda a la IA para agilizar todo, como crear las imagenes, las propiedades de los Dockerfiles y el yaml, la IA tiene errores, pero con ojo humano logras entender en que se equivoca o que puedes hacer para agilizarlo mejor, por ejemplo al intentar correr el yaml me daba un codigo para correrlo en la consola y visualizar las peticiones y no de fondo.  En un proyecto pasado no logre que funcionara, pero gracias a este proyecto logre entenderlo mejor.
+Un párrafo libre. ¿Qué fue lo más difícil? ¿Qué entendieron que antes no entendían? ¿En qué situación real usarían
+ microservicios?
+Uno de lo mas dificil fue trabajar con las versiones y distitos repositorios, ya que yo al inicio cargaba las
+llaves a los repositorios esto miismo genero un conflicto, mi solucion fue cargar esa llave pero a mi perfil,
+con eso logre que se solucionara el problema de hacer pull o push que reconocia a otros repositorios. Tambien
+lo mas dificil a mi parecer fue usar docker, ya que no conocia todos sus comandos, aqui si pedi ayuda a la IA
+para agilizar todo, como crear las imagenes, las propiedades de los Dockerfiles y el yaml, la IA tiene errores,
+pero con ojo humano logras entender en que se equivoca o que puedes hacer para agilizarlo mejor, por ejemplo
+al intentar correr el yaml me daba un codigo para correrlo en la consola y visualizar las peticiones y no de
+fondo.  En un proyecto pasado no logre que funcionara, pero gracias a este proyecto logre entenderlo mejor.
 
-Usaria los microservicios si tengo millones de peticiones, para empresas pequeñas no se nota mucho la diferencia, si un negocio de tal vez 500 personas al dia o en el ejemplo que fueron 500 al mismo tiempo, no conviene invertir tanto en esto, pero por ejemplo en un juego si se cae algo continua y mas en juegos competitivos, de igual forma en bancos y otro sistema como amazon si falla la wishlist aun puedes comprar los productos buscandolos.
+Usaria los microservicios si tengo millones de peticiones, para empresas pequeñas no se nota mucho la
+diferencia, si un negocio de tal vez 500 personas al dia o en el ejemplo que fueron 500 al mismo tiempo,
+no conviene invertir tanto en esto, pero por ejemplo en un juego si se cae algo continua y mas en juegos
+competitivos, de igual forma en bancos y otro sistema como amazon si falla la wishlist aun puedes comprar
+ los productos buscandolos.
 
 ---
 
@@ -73,8 +84,12 @@ Usaria los microservicios si tengo millones de peticiones, para empresas pequeñ
 
 Antes de entregar, el alumno debe marcar cada punto. Si alguno no está marcado, la entrega está incompleta:
 
-MONOLITO [✓] El código del monolito original está en la carpeta /monolito [✓] El Dockerfile del monolito existe y es funcional [✓] Hay captura del docker build sin errores [✓] Hay captura del docker run con el contenedor corriendo [✓] Hay captura de Apache Benchmark mostrando saturación
-README [✓] Explica el dominio de la aplicación [✓] Explica el problema del monolito con sus propias palabras [✓] Define la responsabilidad de cada servicio en una oración [✓] Explica la comunicación entre servicios [✓] Incluye los comandos para levantar el proyecto [✓] Incluye la reflexión final
+MONOLITO [✓] El código del monolito original está en la carpeta /monolito [✓] El Dockerfile del monolito
+existe y es funcional [✓] Hay captura del docker build sin errores [✓] Hay captura del docker run con el
+contenedor corriendo [✓] Hay captura de Apache Benchmark mostrando saturación
+README [✓] Explica el dominio de la aplicación [✓] Explica el problema del monolito con sus propias palabras
+[✓] Define la responsabilidad de cada servicio en una oración [✓] Explica la comunicación entre servicios [✓]
+Incluye los comandos para levantar el proyecto [✓] Incluye la reflexión final
 
 ---
 
