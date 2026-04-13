@@ -1,33 +1,30 @@
-# Proyecto: [Nombre de su aplicación]
-**Alumno:** Nombre Completo  
+# Proyecto: Sistema de Tareas
+**Alumno:** Brandon Alan Carrion Morales  
 **Materia:** Diseño y Arquitectura de Software  
-**Fecha:** Abril 2026
+**Fecha:** 12 de Abril 2026
 
 ---
 
 ## ¿Qué problema resuelve mi aplicación?
-[2-3 oraciones explicando el dominio elegido]
-
+Una aplicacion que registra tareas, ya sea que esten en progreso, pendiente o completada
 ---
 
 ## ¿Cuál era el problema del monolito?
-[Explicar con sus palabras qué pasaba cuando corrían Apache Benchmark.
-No copiar definiciones — describir lo que ELLOS vieron en su terminal]
+Por lo que entendi, fallaron 120 de las 500 que se hicieron, sin embargo no solo fue eso sino que habia mucha latencia casi 1 segundo completo. Por logica
+en un sistema grande, suponiendo y adaptandolo a mi proyecto tareas de algun corporativo gigante y sus sucursales, no se haran solo 500, son mas y pueden llegar a tardar mucho mas.
 
 ---
 
 ## ¿Qué responsabilidad tiene cada microservicio?
 **Servicio A:**  
-[Una oración. Ejemplo: "Recibe el registro del usuario y lo guarda en la tabla X"]
+recibe la informacion y lo guarda en la tabla task de mi bd
 
 **Servicio B:**  
-[Una oración. Ejemplo: "Procesa la confirmación y la guarda en la tabla Y"]
-
+procesa la informacion y la guarda en una tabla llamada notifications
 ---
 
 ## ¿Cómo se comunican los servicios?
-[Explicar con sus palabras cómo A llama a B. Mencionar el nombre del
-contenedor como hostname y por qué eso funciona dentro de Docker]
+servicio a manda una peticion a servicio b, este lo encuentra porque en el 
 
 ---
 
