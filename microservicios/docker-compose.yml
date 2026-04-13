@@ -19,7 +19,6 @@ services:
 
   servicio_b:
     build: ./servicio_b
-    # Sin ports: — no expuesto al exterior
     environment:
       DB_HOST: ${DB_HOST}
       DB_PORT: ${DB_PORT}
